@@ -9,6 +9,10 @@ This repository includes:
 - documentation for the toolchain and conventions,
 - a Git history that follows Conventional Commits.
 
+## Why this repository exists
+
+This capstone repo is a working example of AI-assisted development in practice: it shows how to initialize a project, document conventions, and maintain a clean Git history while using an AI coding assistant.
+
 ## Stack
 
 - Node.js 20 LTS
