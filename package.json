@@ -1,0 +1,9 @@
+{
+  "name": "flyrank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capstone repository for AI-assisted development practice",
+  "scripts": {
+    "test": "echo \"No tests configured yet\""
+  }
+}
