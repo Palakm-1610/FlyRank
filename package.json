@@ -1,3 +1,5 @@
+===== OURS (local) =====
+
 {
   "name": "settings-workflow-drill",
   "version": "0.1.0",
@@ -14,5 +16,17 @@
     "zod": "^3.0.0",
     "vitest": "^0.34.0",
     "jsdom": "^22.0.0"
+  }
+}
+
+===== THEIRS (origin/main) =====
+
+{
+  "name": "flyrank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capstone repository for AI-assisted development practice",
+  "scripts": {
+    "test": "echo \"No tests configured yet\""
   }
 }
