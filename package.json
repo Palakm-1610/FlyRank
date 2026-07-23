@@ -1,0 +1,18 @@
+{
+  "name": "settings-workflow-drill",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.0.0",
+    "zod": "^3.0.0",
+    "vitest": "^0.34.0",
+    "jsdom": "^22.0.0"
+  }
+}
