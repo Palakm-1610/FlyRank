@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #6b7280;
+  --accent-color: #22c55e;
+  --bg-light: #ffffff;
+  --bg-dark: #f9fafb;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+}
+
+@layer components {
+  .container-responsive {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-secondary-200 text-secondary-900 rounded-lg font-medium hover:bg-secondary-300 transition-colors;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+
+  .nav-link-active {
+    @apply text-primary-600 border-b-2 border-primary-600;
+  }
+
+  .nav-link {
+    @apply text-secondary-600 hover:text-primary-600 pb-2 transition-colors;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
