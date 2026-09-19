@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signal Drift</title>
+    <meta
+      name="description"
+      content="Fullscreen shader hero with interactive motion, readable content, and reduced-motion fallback."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="shader-canvas" aria-hidden="true"></canvas>
+
+    <div class="hero-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">S</span>
+          <span>Signal Drift</span>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main class="hero-content" aria-label="Hero section content">
+        <p class="eyebrow">Creative technology • interface design</p>
+        <h1>We turn quiet ideas into luminous systems.</h1>
+        <p class="lede">
+          I design digital experiences that feel calm, responsive, and unforgettable —
+          blending motion, clarity, and product strategy into work that earns attention.
+        </p>
+
+        <div class="cta-row">
+          <a class="primary" href="#work">View work</a>
+          <a class="secondary" href="#about">Book a call</a>
+        </div>
+
+        <ul class="stats" aria-label="Key metrics">
+          <li><strong>7+</strong><span>Years building</span></li>
+          <li><strong>28</strong><span>Launches shipped</span></li>
+          <li><strong>∞</strong><span>Curiosity</span></li>
+        </ul>
+      </main>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
